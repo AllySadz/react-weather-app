@@ -25,9 +25,9 @@
   list-style: none;
 }
 
-.Weather img {
-  height: 64px;
+.Weather canvas {
   margin-right: 10px;
+  margin-top: 5px;
   display: inline-block;
 }
 
@@ -45,4 +45,14 @@
   position: relative;
   top: -34px;
   line-height: 1;
+}
+
+.Weather .flexWrapper {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+.Weather a {
+  text-decoration: none;
 }
